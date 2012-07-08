@@ -3,6 +3,9 @@
 # virtualenv
 venv
 
+#hyde stuff
+.hyde_deps
+
 # C extensions
 *.so
 

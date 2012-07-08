@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <link href="http://fonts.googleapis.com/css?family=Anton" rel="stylesheet" type="text/css">
-        <title>Hyde Starter Kit | Grouping</title>
+        <title>Hyde Starter Kit </title>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="/media/stylesheets/foundation.css">
         <link rel="stylesheet" href="/media/stylesheets/ie.css">
@@ -13,18 +13,18 @@
         <![endif]-->
     </head>
     <body>
-        <header>
+        <header class="row">
             <hgroup>
-            <h1><span>Hyde</span> Starter Kit</h1>
-            <h2>Know your tool</h2>
+                <div class="twelve columns">
+                    <h1><span>Hyde</span> Starter Kit</h1>
+                    <h2 class="subheader">Know your tool</h2>
+                </div>
             </hgroup>
         </header>
-        <nav>
-                                <ul>
-<li><a href="/index.html">Home</a></li><li><a href="/first-steps.html">First steps</a></li><li><a class="selected"href="/advanced/overview.html">Advanced topics</a></li><li><a href="/about.html">About</a></li></ul>
-        </nav>
-        <article id="content">
-                    <h1>Grouping</h1>
+
+        <div class="row">
+            <article id="content" class="nine columns">
+                            <h1>Grouping</h1>
 <p>Content is very often grouped by theme, size, location or any other
 conceivable measure. Groups can be traversed in a few ways in Hyde, and 
 <a href="sorter.html">sorted</a> at the same time. Here are two common ways:</p>
@@ -60,18 +60,33 @@ conceivable measure. Groups can be traversed in a few ways in Hyde, and
     (sorter.html)</li>
 <li><a href="/advanced/tagger.html">Tagger</a> \
     (tagger.html)</li>
+</ul>            </article>
+
+            <nav class="three columns">
+                                            <ul class="basic nav-bar vertical">
+<li><a href="/index.html">Home</a>
+      </li><li><a href="/first-steps.html">First steps</a>
+      </li><li><a href="/about.html">About</a>
+      </li></ul>
+                <ul class="advanced nav-bar vertical">
+    <li><a href="/advanced/overview.html">Advanced topics
+        </a></li>
+    <li><a href="/advanced/sorter.html">Sorting
+        </a></li>
+    <li><a class="active"href="/advanced/grouper.html">Grouping
+        </a></li>
+    <li><a href="/advanced/tagger.html">Tagging
+        </a></li>
 </ul>
-<div class="bottom_article_nav">
-<div class="next"><a href="/advanced/tagger.html">
-    Tagging</a>
-    &gt;</div>
-<div class="prev">&lt; <a href="/advanced/sorter.html">
-    Sorting</a>
-    </div></div>        </article>
-        <aside>
-            <p>Created by <a href="http://merlin.rebrovic.net">Merlin Rebrović</a>
-            for <a href="http://hyde.github.com">Hyde</a></p>
-        </aside>
+            </nav>
+        </div>
+
+        <div class="row">
+            <aside class="eight columns">
+                <p>Created by <a href="http://merlin.rebrovic.net">Merlin Rebrović</a>
+                for <a href="http://hyde.github.com">Hyde</a></p>
+            </aside>
+        </div>
 
                     </body>
 </html>

@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <link href="http://fonts.googleapis.com/css?family=Anton" rel="stylesheet" type="text/css">
-        <title>Hyde Starter Kit | Sorting</title>
+        <title>Hyde Starter Kit </title>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="/media/stylesheets/foundation.css">
         <link rel="stylesheet" href="/media/stylesheets/ie.css">
@@ -13,18 +13,18 @@
         <![endif]-->
     </head>
     <body>
-        <header>
+        <header class="row">
             <hgroup>
-            <h1><span>Hyde</span> Starter Kit</h1>
-            <h2>Know your tool</h2>
+                <div class="twelve columns">
+                    <h1><span>Hyde</span> Starter Kit</h1>
+                    <h2 class="subheader">Know your tool</h2>
+                </div>
             </hgroup>
         </header>
-        <nav>
-                                <ul>
-<li><a href="/index.html">Home</a></li><li><a href="/first-steps.html">First steps</a></li><li><a class="selected"href="/advanced/overview.html">Advanced topics</a></li><li><a href="/about.html">About</a></li></ul>
-        </nav>
-        <article id="content">
-                    <h1>Sorting</h1>
+
+        <div class="row">
+            <article id="content" class="nine columns">
+                            <h1>Sorting</h1>
 <p>There will come a time when you will need to list and sort resources. Hyde
 allows you to walk the site tree and sort the resources by the predefined
 settings in your configuration file.</p>
@@ -72,14 +72,14 @@ all advanced topics.</p>
 <li>[HTML] sorter.html</li>
 <li>[HTML] first-steps.html</li>
 <li>[JPG] bullets.jpg</li>
-<li>[JS] jquery.placeholder.min.js</li>
 <li>[JS] app.js</li>
-<li>[JS] jquery.tooltips.js</li>
-<li>[JS] jquery.reveal.js</li>
-<li>[JS] modernizr.foundation.js</li>
 <li>[JS] jquery.customforms.js</li>
-<li>[JS] jquery.orbit-1.4.0.js</li>
 <li>[JS] jquery.min.js</li>
+<li>[JS] jquery.orbit-1.4.0.js</li>
+<li>[JS] jquery.placeholder.min.js</li>
+<li>[JS] jquery.reveal.js</li>
+<li>[JS] jquery.tooltips.js</li>
+<li>[JS] modernizr.foundation.js</li>
 <li>[PNG] pause-black.png</li>
 <li>[PNG] left-arrow.png</li>
 <li>[PNG] mask-black.png</li>
@@ -90,18 +90,33 @@ all advanced topics.</p>
 <li>[PNG] right-arrow.png</li>
 <li>[YAML] meta.yaml</li>
 <li>[YAML] meta.yaml</li>
+</ul>            </article>
+
+            <nav class="three columns">
+                                            <ul class="basic nav-bar vertical">
+<li><a href="/index.html">Home</a>
+      </li><li><a href="/first-steps.html">First steps</a>
+      </li><li><a href="/about.html">About</a>
+      </li></ul>
+                <ul class="advanced nav-bar vertical">
+    <li><a href="/advanced/overview.html">Advanced topics
+        </a></li>
+    <li><a class="active"href="/advanced/sorter.html">Sorting
+        </a></li>
+    <li><a href="/advanced/grouper.html">Grouping
+        </a></li>
+    <li><a href="/advanced/tagger.html">Tagging
+        </a></li>
 </ul>
-<div class="bottom_article_nav">
-<div class="next"><a href="/advanced/grouper.html">
-    Grouping</a>
-    &gt;</div>
-<div class="prev">&lt; <a href="/advanced/overview.html">
-    Advanced topics</a>
-    </div></div>        </article>
-        <aside>
-            <p>Created by <a href="http://merlin.rebrovic.net">Merlin Rebrović</a>
-            for <a href="http://hyde.github.com">Hyde</a></p>
-        </aside>
+            </nav>
+        </div>
+
+        <div class="row">
+            <aside class="eight columns">
+                <p>Created by <a href="http://merlin.rebrovic.net">Merlin Rebrović</a>
+                for <a href="http://hyde.github.com">Hyde</a></p>
+            </aside>
+        </div>
 
                     </body>
 </html>

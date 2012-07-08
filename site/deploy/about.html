@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <link href="http://fonts.googleapis.com/css?family=Anton" rel="stylesheet" type="text/css">
-        <title>Hyde Starter Kit | About</title>
+        <title>Hyde Starter Kit </title>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="/media/stylesheets/foundation.css">
         <link rel="stylesheet" href="/media/stylesheets/ie.css">
@@ -13,32 +13,59 @@
         <![endif]-->
     </head>
     <body>
-        <header>
+        <header class="row">
             <hgroup>
-            <h1><span>Hyde</span> Starter Kit</h1>
-            <h2>Know your tool</h2>
+                <div class="twelve columns">
+                    <h1><span>Hyde</span> Starter Kit</h1>
+                    <h2 class="subheader">Know your tool</h2>
+                </div>
             </hgroup>
         </header>
-        <nav>
-                                <ul>
-<li><a href="/index.html">Home</a></li><li><a href="/first-steps.html">First steps</a></li><li><a href="/advanced/overview.html">Advanced topics</a></li><li><a class="selected"href="/about.html">About</a></li></ul>
-        </nav>
-        <article id="content">
-                    <h1>About</h1>
+
+        <div class="row">
+            <article id="content" class="nine columns">
+                            <h1>About</h1>
 <p>This beginner's tutorial was created by <a href="http://merlin.rebrovic.net">Merlin Rebrović</a> for the
 <a href="http://hyde.github.com">Hyde project</a>. It is included in Hyde as a layout named <em>starter</em>.
 If you have a <a href="http://hyde.github.com/install.html">default Hyde installation</a>, all you have to do is
 write:</p>
 <pre><code>hyde -s folder_name create -l starter
 </code></pre>
-<p>To check for the newest version, to download it separately or to report
-a bug, please visit Hyde Starter Kit's <a href="https://github.com/merlinrebrovic/hyde-starter-kit">GitHub page</a>.</p>
+<p>To build and serve the template, type:</p>
+<pre><code>cd folder_name
+hyde gen
+hyde serve
+</code></pre>
+<p>To check for the newest version, download it separately, report a bug
+or contribute, please visit Hyde Starter Kit's <a href="https://github.com/merlinrebrovic/hyde-starter-kit">GitHub page</a>.</p>
 <h2>Attributions</h2>
-<p>The <a href="http://www.flickr.com/photos/batintherain/5613841957/">photo</a> used for part of the background.</p>        </article>
-        <aside>
-            <p>Created by <a href="http://merlin.rebrovic.net">Merlin Rebrović</a>
-            for <a href="http://hyde.github.com">Hyde</a></p>
-        </aside>
+<p>The <a href="http://www.flickr.com/photos/batintherain/5613841957/">photo</a> used for part of the background.</p>            </article>
+
+            <nav class="three columns">
+                                            <ul class="basic nav-bar vertical">
+<li><a href="/index.html">Home</a>
+      </li><li><a href="/first-steps.html">First steps</a>
+      </li><li><a href="/about.html">About</a>
+      </li></ul>
+                <ul class="advanced nav-bar vertical">
+    <li><a href="/advanced/overview.html">Advanced topics
+        </a></li>
+    <li><a href="/advanced/sorter.html">Sorting
+        </a></li>
+    <li><a href="/advanced/grouper.html">Grouping
+        </a></li>
+    <li><a href="/advanced/tagger.html">Tagging
+        </a></li>
+</ul>
+            </nav>
+        </div>
+
+        <div class="row">
+            <aside class="eight columns">
+                <p>Created by <a href="http://merlin.rebrovic.net">Merlin Rebrović</a>
+                for <a href="http://hyde.github.com">Hyde</a></p>
+            </aside>
+        </div>
 
                     </body>
 </html>

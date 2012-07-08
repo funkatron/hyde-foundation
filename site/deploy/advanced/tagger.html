@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <link href="http://fonts.googleapis.com/css?family=Anton" rel="stylesheet" type="text/css">
-        <title>Hyde Starter Kit | Tagging</title>
+        <title>Hyde Starter Kit </title>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="/media/stylesheets/foundation.css">
         <link rel="stylesheet" href="/media/stylesheets/ie.css">
@@ -13,18 +13,18 @@
         <![endif]-->
     </head>
     <body>
-        <header>
+        <header class="row">
             <hgroup>
-            <h1><span>Hyde</span> Starter Kit</h1>
-            <h2>Know your tool</h2>
+                <div class="twelve columns">
+                    <h1><span>Hyde</span> Starter Kit</h1>
+                    <h2 class="subheader">Know your tool</h2>
+                </div>
             </hgroup>
         </header>
-        <nav>
-                                <ul>
-<li><a href="/index.html">Home</a></li><li><a href="/first-steps.html">First steps</a></li><li><a class="selected"href="/advanced/overview.html">Advanced topics</a></li><li><a href="/about.html">About</a></li></ul>
-        </nav>
-        <article id="content">
-                    <h1>Tagging</h1>
+
+        <div class="row">
+            <article id="content" class="nine columns">
+                            <h1>Tagging</h1>
 <p>It seems that human beings want to tag everything. You can do it with
 Hyde also. In this example <strong>tags</strong> are used to represent technologies
 used to build a particular advanced page. So you can see that the
@@ -60,16 +60,33 @@ used only for overview and grouping pages.</p>
 <p>You can also search for combination of tags. If you search for a
 resource that has <strong>sort</strong>, <strong>tag</strong> and <strong>group</strong> tags, only an
 <a href="/advanced/overview.html">overview</a> 
-will be returned.</p>
-<div class="bottom_article_nav">
+will be returned.</p>            </article>
 
-<div class="prev">&lt; <a href="/advanced/grouper.html">
-    Grouping</a>
-    </div></div>        </article>
-        <aside>
-            <p>Created by <a href="http://merlin.rebrovic.net">Merlin Rebrović</a>
-            for <a href="http://hyde.github.com">Hyde</a></p>
-        </aside>
+            <nav class="three columns">
+                                            <ul class="basic nav-bar vertical">
+<li><a href="/index.html">Home</a>
+      </li><li><a href="/first-steps.html">First steps</a>
+      </li><li><a href="/about.html">About</a>
+      </li></ul>
+                <ul class="advanced nav-bar vertical">
+    <li><a href="/advanced/overview.html">Advanced topics
+        </a></li>
+    <li><a href="/advanced/sorter.html">Sorting
+        </a></li>
+    <li><a href="/advanced/grouper.html">Grouping
+        </a></li>
+    <li><a class="active"href="/advanced/tagger.html">Tagging
+        </a></li>
+</ul>
+            </nav>
+        </div>
+
+        <div class="row">
+            <aside class="eight columns">
+                <p>Created by <a href="http://merlin.rebrovic.net">Merlin Rebrović</a>
+                for <a href="http://hyde.github.com">Hyde</a></p>
+            </aside>
+        </div>
 
                     </body>
 </html>

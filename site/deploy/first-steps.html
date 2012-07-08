@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link href="http://fonts.googleapis.com/css?family=Anton" rel="stylesheet" type="text/css">
+        <title>Hyde Starter Kit | First steps</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="/media/stylesheets/foundation.css">
+        <link rel="stylesheet" href="/media/stylesheets/ie.css">
+        <link rel="stylesheet" href="/media/stylesheets/app.css">
+        <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+        </script>
+        <![endif]-->
+    </head>
+    <body>
+        <header class="row">
+            <hgroup>
+                <div class="twelve columns">
+                    <h1><span>Hyde</span> Starter Kit</h1>
+                    <h2 class="subheader">Know your tool</h2>
+                </div>
+            </hgroup>
+        </header>
+
+        <div class="row">
+            <article id="content" class="nine columns">
+                            <h1>Walk this way if you're a beginner</h1>
+<p>This template was created to look at its code. So you should spend about
+5% of your time looking at the web from the outside and the other 95%
+tinkering with things under the hood.</p>
+<p>The template is not perfect nor does it contain the best practices. It
+is not even consistent. It is designed to help you with the learning
+process. If you follow the steps below, you'll get a pretty good picture of
+how things work. Every step adds some new features and builds upon the
+previous one.</p>
+<h2>1. Site structure and configuration file</h2>
+<p>The site is made of two folders and a <a href="http://hyde.github.com/config.html" title="Hyde configuration">Hyde configuration</a>
+file. The folders are <strong>content</strong> and <strong>layout</strong>.</p>
+<p><strong>content</strong> contains all your page content, blog articles, pictures and
+resources like CSS and JavaScript. Everything that is unique is here.</p>
+<p><strong>layout</strong> contains templates and macros. Everything that you'll want to
+reuse is here.</p>
+<h2>2. Jinja2 template</h2>
+<p><strong>base.j2</strong> is a very short and simple Jinja2 template. This way you can
+concentrate on some of the basic features. Notice meta and context
+variables invocation inside curly braces, dynamic media path generation
+and running all content through the Markdown filter.</p>
+<p><strong>macros.j2</strong> contains macros for common and repetitive tasks.</p>
+<p>For more information or to try something new, visit the extensive <a href="http://jinja.pocoo.org/docs/templates/" title="Jinja2 documentation">Jinja2
+documentation</a>.</p>
+<h2>3. Content</h2>
+<p>Look at the three files in this order: <a href="index.html">index.html</a>,
+<a href="first-steps.html">first-steps.html</a> and <a href="about.html">about.html</a>.</p>
+<p><a href="index.html">Index</a> extends the base layout in the classic Jinja way and
+fills the content block with some simple Markdown data.</p>
+<p><a href="first-steps.html">First steps</a> goes a step furher. It introduces the
+in-file metadata that plugins will use to extend and fill the layout. It
+also uses some new Markdown features.</p>
+<p><a href="about.html">About</a> has a <strong>default_block</strong> metadata and mixes Markdown
+content with Jinja templates.</p>
+<h2>4. Advanced sections</h2>
+<p>While searching and navigating this template you'll find more files and
+sections than mentioned on this page (something like <strong>meta.yaml</strong>
+files, the <strong>content/advanced</strong> folder or other Jinja templates). They
+are files needed for the <a href="advanced/overview.html">advanced topics</a> so
+just ignore them at the beginning.  They will start to make sense while
+you're working through the template or will be explicitly explained when
+the right time comes.</p>            </article>
+
+            <nav class="three columns">
+                                            <ul class="nav-bar vertical">
+<li><a href="/index.html">Home</a></li><li><a class="active"href="/first-steps.html">First steps</a></li><li><a href="/advanced/overview.html">Advanced topics</a></li><li><a href="/about.html">About</a></li></ul>
+            </nav>
+        </div>
+
+        <div class="row">
+            <aside class="eight columns">
+                <p>Created by <a href="http://merlin.rebrovic.net">Merlin Rebrović</a>
+                for <a href="http://hyde.github.com">Hyde</a></p>
+            </aside>
+        </div>
+
+                    </body>
+</html>

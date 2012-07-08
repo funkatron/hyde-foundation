@@ -14,10 +14,10 @@ Run all commands from the root directory of your install.
 
 * use `pip` to install hyde
 
-		pip install -f requirements.txt
+		pip install -r requirements.txt
 
 * start-up the hyde server
 
 		hyde -s ./site serve
 
-* visit <http://localhost:8080> in your browser
+* visit <http://localhost:8080/index.html> in your browser
